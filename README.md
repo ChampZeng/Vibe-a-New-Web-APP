@@ -19,7 +19,7 @@
 ```text
 Vibe-a-New-Web-APP/
 ├── AI_Workflows/               # 存放核心的 AI 提示词与 SOP 资产
-│   ├── WebApp_Architect_Skill.md     # Gemini 架构师设定指令
+│   ├── SKILL.md     # Gemini 架构师设定指令
 │   └── Cursor_Execution_SOP.md       # Cursor 执行标准作业流
 ├── Docs/                       # 驱动 Cursor 开发的核心基石文档
 │   ├── 1_PRD.md                # 产品需求文档
@@ -33,7 +33,7 @@ Vibe-a-New-Web-APP/
 ## ⚙️ 标准作业流 (SOP)
 
 ### Phase 1: 架构设计 (在 Gemini 中完成)
-1. **注入灵魂**：将 `WebApp_Architect_Skill.md` 作为 System Prompt 发送给大模型。
+1. **注入灵魂**：将 `SKILL.md` 作为 System Prompt 发送给大模型。
 2. **需求对齐**：输入愿望清单与 UI 草图，经过多轮对话确认，最终输出标准化、Markdown 格式的 `1_PRD.md`、`2_UI_Design.md` 和 `3_Development.md`。
 3. **获取密钥**：大模型将输出一段专用于唤醒 Cursor 的“交接指令”。
 
